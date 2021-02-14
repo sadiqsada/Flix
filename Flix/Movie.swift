@@ -1,0 +1,23 @@
+//
+//  Movie.swift
+//  Flix
+//
+//  Created by Md Sadiq Sada on 2/13/21.
+//
+
+import UIKit
+
+class Movie: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
