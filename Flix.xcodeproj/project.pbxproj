@@ -21,6 +21,7 @@
 		CFB50D9625D8764200A41372 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB50D9525D8764200A41372 /* MovieCell.swift */; };
 		CFBDB34C25DF06BD00EDB04E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDB34B25DF06BD00EDB04E /* MovieDetailViewController.swift */; };
 		CFBDB35125E1C75A00EDB04E /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDB35025E1C75A00EDB04E /* MovieGridViewController.swift */; };
+		CFBDB35625E1CB0400EDB04E /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBDB35525E1CB0400EDB04E /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		CFB50D9525D8764200A41372 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		CFBDB34B25DF06BD00EDB04E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		CFBDB35025E1C75A00EDB04E /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		CFBDB35525E1CB0400EDB04E /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		D3E5AE2A6ADBFDA1926D8183 /* Pods_Flix_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				CFB50D8025D86A6C00A41372 /* MoviesViewController.swift */,
 				CFBDB34B25DF06BD00EDB04E /* MovieDetailViewController.swift */,
 				CFBDB35025E1C75A00EDB04E /* MovieGridViewController.swift */,
+				CFBDB35525E1CB0400EDB04E /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				CFB50D9625D8764200A41372 /* MovieCell.swift in Sources */,
 				CFB50D8125D86A6C00A41372 /* MoviesViewController.swift in Sources */,
 				CFBDB35125E1C75A00EDB04E /* MovieGridViewController.swift in Sources */,
+				CFBDB35625E1CB0400EDB04E /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
