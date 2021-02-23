@@ -22,11 +22,15 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
 
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
-        layout.minimumLineSpacing = 0
-        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 5
+        layout.minimumInteritemSpacing = 5
         
-        let width = view.frame.size.width / 2
-        layout.itemSize = CGSize(width: width - layout.minimumInteritemSpacing, height: width * 3 / 2)
+        let cellsPerLine:CGFloat = 2
+        let interItemSpacingTotal = layout.minimumInteritemSpacing * (cellsPerLine - 1)
+
+        let width = collectionView.frame.size.width / cellsPerLine - interItemSpacingTotal / cellsPerLine
+        
+        layout.itemSize = CGSize(width: width, height: width * 3 / 2)
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
