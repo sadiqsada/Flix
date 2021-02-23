@@ -25,8 +25,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         
-        let width = view.frame.size.width / 3
-        layout.itemSize = CGSize(width: width, height: width * 3 / 2)
+        let width = view.frame.size.width / 2
+        layout.itemSize = CGSize(width: width - layout.minimumInteritemSpacing, height: width * 3 / 2)
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
