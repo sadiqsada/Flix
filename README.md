@@ -18,7 +18,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/YoFz3Q4DAR.gif" width=250><br>
+<img src="http://g.recordit.co/l1kMfySZal.gif" width=250><br>
 
 ### Notes
 I have encountered issues with spacing between grid cells in the collection view component.
